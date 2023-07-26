@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Maven+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Maven Pro';
+    color: rgb(25, 39, 51);
+}
+h1{
+    color: rgb(204, 160, 110);
+    text-shadow: 2px 2px 4px black;
+    font-family: Lobster;
+    text-align: center;
+    font-size: 80px;
+}
+header{
+    background: linear-gradient(to top, rgba(206, 165, 42, 0.11),
+    rgba(83, 64, 12, 0.685)); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+.contenedor{
+    width: 100%;
+    padding: 50px 20px;
+    background-color: rgb(111, 140, 206);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    contain: paint;
+}
+.contenedor .contenedor-items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 30px;
+    grid-row-gap: 30px;
+    width: 100%;
+    transition: .3s;
+}
+.contenedor .contenedor-items .items{
+    max-width: 200px;
+    padding:  0 40px ;
+    margin: auto;
+    background-color: rgb(23, 125, 214);
+    border: 1px solid rgba(0, 0, 0, 0.911);
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+}
+.contenedor .contenedor-items .items:hover{
+    box-shadow: 0 0 27px #a1df84;
+    scale: 1.05;
+}
+.contenedor .contenedor-items .items .img-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px 15px 0;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.contenedor .contenedor-items .items .titulo-item{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.contenedor-items .items .precio-item{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: solid;
+}
+.contenedor-items .items .boton-item{
+    display: block;
+    margin: 10px auto;
+    border: solid rgba(7, 53, 13, 0.582);
+    background-color: #58a336;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    padding: 0 10px;
+    /*box-shadow:0 0 7px #a1df84;*/
+}
+.contenedor-items .items .boton-item i{
+    color: rgb(17, 63, 8);
+}

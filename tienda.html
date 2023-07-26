@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Venado Tuerto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Games Venado Tuerto</h1>
+    </header>
+    <!--elementos-->
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="items">
+                <span class="titulo-item">Grand Theft Auto IV</span>
+                <img src="gtaiv.jpg" alt="" class="img-item">
+                <span class="precio-item">$250,00</span>
+                <button class="boton-item"><i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+            <div class="items">
+                <span class="titulo-item">Doom 3</span>
+                <img src="doom.jpg" alt="" class="img-item">
+                <span class="precio-item">$120,01</span>
+                <button class="boton-item"><i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+            <div class="items">
+                <span class="titulo-item">Half Life 2</span>
+                <img src="hf.jpg" alt="" class="img-item">
+                <span class="precio-item">$170,00</span>
+                <button class="boton-item"><i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+            <div class="items">
+                <span class="titulo-item">Crysis</span>
+                <img src="crys.jpg" alt="" class="img-item">
+                <span class="precio-item">$250,00</span>
+                <button class="boton-item"><i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+            <div class="items">
+                <span class="titulo-item">Fallout 3</span>
+                <img src="fall.jpg" alt="" class="img-item">
+                <span class="precio-item">$174,00</span>
+                <button class="boton-item"><i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+            <div class="items">
+                <span class="titulo-item">F.E.A.R</span>
+                <img src="fear.jpg" alt="" class="img-item">
+                <span class="precio-item">$250,00</span>
+                <button class="boton-item"> <i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+            <div class="items">
+                <span class="titulo-item">Gear of War</span>
+                <img src="gear.jpg" alt="" class="img-item">
+                <span class="precio-item">$123,00</span>
+                <button class="boton-item"> <i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+            <div class="items">
+                <span class="titulo-item">The Elder Scrolls IV Oblivion</span>
+                <img src="tes.jpg" alt="" class="img-item">
+                <span class="precio-item">$230,00</span>
+                <button class="boton-item"><i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+        </div>
+        <!--carro de compras-->
+        <div class="carro">
+            <div class="cabezal-carro">
+                <h2>Tu Carro</h2>
+            </div>
+            <div class="carro-items">
+                <div class="compra-items">
+                    <img src="gtaiv.jpg" alt="" width="60px">
+                    <div class="compra-item-detalle">
+                        <span class="carro-items-titulo">Grand Theft Auto IV</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carro-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <sapn class="carro-precio">$250,00</sapn>
+                    </div>
+                    <span class="bt-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+                <div class="compra-items">
+                    <img src="doom.jpg" alt="" width="60px">
+                    <div class="compra-item-detalle">
+                        <span class="carro-items-titulo">Doom 3</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carro-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <sapn class="carro-precio">$120,01</sapn>
+                    </div>
+                    <span class="bt-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+                <div class="compra-items">
+                    <img src="hf.jpg" alt="" width="60px">
+                    <div class="compra-item-detalle">
+                        <span class="carro-items-titulo">Half Life 2</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carro-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <sapn class="carro-precio">$170,00</sapn>
+                    </div>
+                    <span class="bt-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+                <div class="compra-items">
+                    <img src="fall.jpg" alt="" width="60px">
+                    <div class="compra-item-detalle">
+                        <span class="carro-items-titulo">Fallout 3</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carro-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <sapn class="carro-precio">$174,00</sapn>
+                    </div>
+                    <span class="bt-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+                <div class="compra-items">
+                    <img src="fear.jpg" alt="" width="60px">
+                    <div class="compra-item-detalle">
+                        <span class="carro-items-titulo">F.E.A.R</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carro-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <sapn class="carro-precio">$250,00</sapn>
+                    </div>
+                    <span class="bt-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+                <div class="compra-items">
+                    <img src="gear.jpg" alt="" width="60px">
+                    <div class="compra-item-detalle">
+                        <span class="carro-items-titulo">Gear of War</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carro-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <sapn class="carro-precio">$123,00</sapn>
+                    </div>
+                    <span class="bt-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+                <div class="compra-items">
+                    <img src="tes.jpg" alt="" width="60px">
+                    <div class="compra-item-detalle">
+                        <span class="carro-items-titulo">The Elder Scrolls IV</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carro-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <sapn class="carro-precio">$230,00</sapn>
+                    </div>
+                    <span class="bt-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>  
+</body>
+<script src="script.js"></script>
+</html>
