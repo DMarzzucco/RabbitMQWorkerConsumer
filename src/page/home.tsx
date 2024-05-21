@@ -19,9 +19,9 @@ function Home() {
             setValueIm(prevValue => prevValue - 1)
         }
     }
-    const Authenticator = ({ }) => {
-        // if (setAuth === 2) { }
-    }
+    // const Authenticator = ({ }) => {
+    // if (setAuth === 2) { }
+    // }
     return (
         <>
             <section className="flex flex-col w-full h-screen justify-center items-center">
