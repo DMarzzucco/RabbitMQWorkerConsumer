@@ -1,9 +1,12 @@
 import { ChangeEvent, useState } from "react"
+import { ErrorAuth, PassAuth } from "../items/items";
 
 function Home() {
     const [valueIm, setValueIm] = useState<number>(0)
     const [menu, setMenu] = useState<boolean>(false)
     const [auth, setAuth] = useState<string | number>();
+    const [error, setError] = useState<boolean>(false);
+    const [authPass, setAuthPass] = useState<boolean>(false);
 
     const TakeAuth = (event: ChangeEvent<HTMLInputElement>) => {
         setAuth(event.target.value);
@@ -19,9 +22,20 @@ function Home() {
             setValueIm(prevValue => prevValue - 1)
         }
     }
-    // const Authenticator = ({ }) => {
-    // if (setAuth === 2) { }
-    // }
+    const pass: string = 'monto12';
+    const Authenticator = ({ }) => {
+        if (auth === pass) {
+            console.log('es correcto')
+            setAuthPass(true);
+            setTimeout(() => setAuthPass(false), 500);
+            setAuth('')
+        }
+        else {
+            setError(true)
+            setTimeout(() => setError(false), 500);
+            setAuth('');
+        }
+    }
     return (
         <>
             <section className="flex flex-col w-full h-screen justify-center items-center">
@@ -36,12 +50,18 @@ function Home() {
                 </div>
 
                 <div className="flex flex-col justify-center items-center">
-                    <span>Para entrar a la pagina darle aqui</span>
-                    <button onClick={showMenu}>INGRESAR</button>
+                    {!menu ?
+                        <>
+                            <span>Para entrar a la pagina darle aqui</span>
+                            <button onClick={showMenu}>INGRESAR</button>
+                        </> : null
+                    }
                     {menu ?
-                        <div>
-                            <input type="text" placeholder="contraseña" value={auth} onChange={TakeAuth} />
-                            <button></button>
+                        <div className="flex flex-col justify-center items-center">
+                            <input type="text" placeholder="contraseña" value={auth || ''} onChange={TakeAuth} />
+                            {error ? <ErrorAuth /> : null}
+                            {authPass ? <PassAuth /> : null}
+                            <button onClick={Authenticator}>INICIAR</button>
 
                         </div>
                         : null}
