@@ -17,7 +17,6 @@ function App() {
         <Route path="/store" element={
           <>
             <Header />
-            {/* <Store /> */}
             <Store/>
             <Footer />
           </>
