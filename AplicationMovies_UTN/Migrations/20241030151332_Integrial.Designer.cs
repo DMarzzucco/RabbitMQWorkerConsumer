@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AplicationMovies_UTN.Migrations
 {
     [DbContext(typeof(AplicationMovies_UTNContext))]
-    [Migration("20241029172552_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241030151332_Integrial")]
+    partial class Integrial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,6 +32,12 @@ namespace AplicationMovies_UTN.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Director")
+                        .HasColumnType("text");
 
                     b.Property<string>("Genre")
                         .HasColumnType("text");

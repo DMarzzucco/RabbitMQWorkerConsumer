@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AplicationMovies_UTN.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Integrial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,6 +21,8 @@ namespace AplicationMovies_UTN.Migrations
                     Title = table.Column<string>(type: "text", nullable: true),
                     RelaceDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Genre = table.Column<string>(type: "text", nullable: true),
+                    Description = table.Column<string>(type: "text", nullable: true),
+                    Director = table.Column<string>(type: "text", nullable: true),
                     Price = table.Column<decimal>(type: "numeric", nullable: false)
                 },
                 constraints: table =>
