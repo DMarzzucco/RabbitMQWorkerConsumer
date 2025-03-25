@@ -2,27 +2,27 @@ version: '3.8'
 
 services:
 
-  db:
+  db-project:
     image: postgres
-    container_name: data_base_pg
+    container_name: project_database
     restart: always
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: data_base
+      POSTGRES_DB: database_project
     ports:
       - "5432:5432"
-    volumes:
-      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
-      
-  pgadmin:
-    image: dpage/pgadmin4
-    container_name: pgadmin
+  db_task:
+    image: postgres
+    container_name: task_database
     restart: always
     environment:
-      PGADMIN_DEFAULT_EMAIL: user@example.com
-      PGADMIN_DEFAULT_PASSWORD: password
+      POSTGRES_USER: task
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: database_task
     ports:
-      - "5050:80"
-    depends_on:
-      - db
+      - "5433:5432"
+
+    
+
+

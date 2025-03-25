@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\module\\repository\\interface\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\module\\repository\\interface\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\extensions\\servicesbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\extensions\\servicesbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\context\\configuration\\projectmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\context\\configuration\\projectmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\module\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\module\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\module\\handler\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\module\\handler\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 751,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Repository\\Interface\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "Project\\Module\\Repository\\Interface\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Repository\\Interface\\IProjectRepository.cs",
+              "RelativeToolTip": "Project\\Module\\Repository\\Interface\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:58:15.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "Project\\Module\\Services\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Services\\ProjectService.cs",
+              "RelativeToolTip": "Project\\Module\\Services\\ProjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:49:16.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicesBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Extensions\\ServicesBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "Project\\Extensions\\ServicesBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Extensions\\ServicesBuilderExtensions.cs",
+              "RelativeToolTip": "Project\\Extensions\\ServicesBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:06:59.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 751,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectModelConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Context\\Configuration\\ProjectModelConfiguration.cs",
+              "RelativeDocumentMoniker": "Project\\Context\\Configuration\\ProjectModelConfiguration.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Context\\Configuration\\ProjectModelConfiguration.cs",
+              "RelativeToolTip": "Project\\Context\\Configuration\\ProjectModelConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:30:17.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Handler\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Project\\Module\\Handler\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Handler\\ProjectController.cs",
+              "RelativeToolTip": "Project\\Module\\Handler\\ProjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:54:07.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Program.cs",
+              "RelativeDocumentMoniker": "Project\\Program.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Program.cs",
+              "RelativeToolTip": "Project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:23:58.778Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
