@@ -15,7 +15,11 @@ namespace Project.Module.Handler
         {
             this._service = service;
         }
-
+        /// <summary>
+        /// Create Project
+        /// </summary>
+        /// <param name="body"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<ProjectModel>> CreatingProject([FromBody] CreateProjectDTO body)
         {
@@ -24,6 +28,10 @@ namespace Project.Module.Handler
             return CreatedAtAction(nameof(GetAll), new { id = project.Id }, project);
         }
 
+        /// <summary>
+        /// Get all Project
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProjectModel>>> GetAll()
         {
@@ -31,6 +39,11 @@ namespace Project.Module.Handler
             return Ok(project);
         }
 
+        /// <summary>
+        /// Get Project By Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<ProjectModel>> GetById(int id)
         {

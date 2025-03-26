@@ -1,3 +1,4 @@
+using Project.Configuration.Database.Extensions;
 using Project.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.ApplyMigration();
 app.UseApplicationBuilderExtensions();
 app.MapControllers();
 app.Run();

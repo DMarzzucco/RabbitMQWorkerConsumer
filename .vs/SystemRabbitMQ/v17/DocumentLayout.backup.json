@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\",
+  "WorkspaceRootPath": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\module\\repository\\interface\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\module\\repository\\interface\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemmq\\project\\protos\\projectservicegrpc.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\protos\\projectservicegrpc.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\extensions\\servicesbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\extensions\\servicesbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|c:\\users\\darmarzrold\\source\\repos\\systemmq\\tasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|solutionrelative:tasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|c:\\users\\darmarzrold\\source\\repos\\systemmq\\tasks\\extensions\\servicesbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|solutionrelative:tasks\\extensions\\servicesbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\context\\configuration\\projectmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\context\\configuration\\projectmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|c:\\users\\darmarzrold\\source\\repos\\systemmq\\tasks\\configuration\\database\\helper\\waitforconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|solutionrelative:tasks\\configuration\\database\\helper\\waitforconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\module\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\module\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|c:\\users\\darmarzrold\\source\\repos\\systemmq\\tasks\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|solutionrelative:tasks\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|c:\\users\\darmarzrold\\source\\repos\\systemrabbitmq\\project\\module\\handler\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C7E7AF-3449-4220-A118-EBDF05C85E14}|Project\\Project.csproj|solutionrelative:project\\module\\handler\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|c:\\users\\darmarzrold\\source\\repos\\systemmq\\tasks\\context\\configuration\\taskmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D29BDCF-8E76-4A63-A648-63627BF5566D}|Tasks\\Tasks.csproj|solutionrelative:tasks\\context\\configuration\\taskmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,8 +33,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 751,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 847,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,86 +62,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IProjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Repository\\Interface\\IProjectRepository.cs",
-              "RelativeDocumentMoniker": "Project\\Module\\Repository\\Interface\\IProjectRepository.cs",
-              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Repository\\Interface\\IProjectRepository.cs",
-              "RelativeToolTip": "Project\\Module\\Repository\\Interface\\IProjectRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:58:15.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProjectService.cs",
-              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Services\\ProjectService.cs",
-              "RelativeDocumentMoniker": "Project\\Module\\Services\\ProjectService.cs",
-              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Services\\ProjectService.cs",
-              "RelativeToolTip": "Project\\Module\\Services\\ProjectService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:49:16.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServicesBuilderExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Extensions\\ServicesBuilderExtensions.cs",
-              "RelativeDocumentMoniker": "Project\\Extensions\\ServicesBuilderExtensions.cs",
-              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Extensions\\ServicesBuilderExtensions.cs",
-              "RelativeToolTip": "Project\\Extensions\\ServicesBuilderExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:06:59.578Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 751,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProjectModelConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Context\\Configuration\\ProjectModelConfiguration.cs",
-              "RelativeDocumentMoniker": "Project\\Context\\Configuration\\ProjectModelConfiguration.cs",
-              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Context\\Configuration\\ProjectModelConfiguration.cs",
-              "RelativeToolTip": "Project\\Context\\Configuration\\ProjectModelConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAgAAAAAAAAAA==",
+              "Title": "WaitForConnection.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Configuration\\Database\\Helper\\WaitForConnection.cs",
+              "RelativeDocumentMoniker": "Tasks\\Configuration\\Database\\Helper\\WaitForConnection.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Configuration\\Database\\Helper\\WaitForConnection.cs",
+              "RelativeToolTip": "Tasks\\Configuration\\Database\\Helper\\WaitForConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:30:17.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProjectController.cs",
-              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Handler\\ProjectController.cs",
-              "RelativeDocumentMoniker": "Project\\Module\\Handler\\ProjectController.cs",
-              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Module\\Handler\\ProjectController.cs",
-              "RelativeToolTip": "Project\\Module\\Handler\\ProjectController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:54:07.121Z",
+              "WhenOpened": "2025-03-26T12:32:57.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Program.cs",
-              "RelativeDocumentMoniker": "Project\\Program.cs",
-              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemRabbitMQ\\Project\\Program.cs",
-              "RelativeToolTip": "Project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Title": "ServicesBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Extensions\\ServicesBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "Tasks\\Extensions\\ServicesBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Extensions\\ServicesBuilderExtensions.cs",
+              "RelativeToolTip": "Tasks\\Extensions\\ServicesBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:23:58.778Z",
+              "WhenOpened": "2025-03-26T12:06:52.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Context\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Tasks\\Context\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Context\\AppDBContext.cs",
+              "RelativeToolTip": "Tasks\\Context\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:06:30.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskModelConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Context\\Configuration\\TaskModelConfiguration.cs",
+              "RelativeDocumentMoniker": "Tasks\\Context\\Configuration\\TaskModelConfiguration.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Context\\Configuration\\TaskModelConfiguration.cs",
+              "RelativeToolTip": "Tasks\\Context\\Configuration\\TaskModelConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:06:13.904Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 655,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectServiceGrpc.proto",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Project\\Protos\\ProjectServiceGrpc.proto",
+              "RelativeDocumentMoniker": "Project\\Protos\\ProjectServiceGrpc.proto",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Project\\Protos\\ProjectServiceGrpc.proto",
+              "RelativeToolTip": "Project\\Protos\\ProjectServiceGrpc.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-03-26T13:07:35.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Program.cs",
+              "RelativeDocumentMoniker": "Tasks\\Program.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\SystemMQ\\Tasks\\Program.cs",
+              "RelativeToolTip": "Tasks\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:56:17.947Z",
               "EditorCaption": ""
             }
           ]

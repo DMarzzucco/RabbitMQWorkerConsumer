@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Project.Configuration.Database.Helper;
 using Project.Context;
 using Project.Mapper;
 using Project.Module.Repository;
@@ -15,6 +16,13 @@ namespace Project.Extensions
         {
             //conection
             var connectionString = configuration.GetConnectionString("Connection");
+            if (string.IsNullOrEmpty(connectionString))
+                throw new ArgumentNullException("Connection string cannot be null or empty");
+            using (var provider = service.BuildServiceProvider())
+            {
+                var logger = provider.GetRequiredService<ILogger<object>>();
+                WaitForConnection.Implement(connectionString, logger).GetAwaiter().GetResult();
+            }
             service.AddDbContext<AppDBContext>(op => op.UseNpgsql(connectionString));
             //swagger
             service.AddEndpointsApiExplorer();
@@ -25,7 +33,8 @@ namespace Project.Extensions
             service.AddScoped<IProjectRepository, ProjectRepository>();
             service.AddScoped<IProjectService, ProjectService>();
             //mapper
-            var mappConfig = new MapperConfiguration(cs => {
+            var mappConfig = new MapperConfiguration(cs =>
+            {
                 cs.AddProfile<MappingProfile>();
             });
             IMapper mapper = mappConfig.CreateMapper();
