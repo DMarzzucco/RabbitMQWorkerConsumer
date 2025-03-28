@@ -12,8 +12,6 @@ namespace Tasks.Context.Configuration
             builder.Property(r => r.Id).UseIdentityColumn().ValueGeneratedOnAdd();
 
             builder.Property(r => r.Name).IsRequired();
-            builder.Property(r => r.ProjectId).IsRequired();
-
             builder.ToTable("Task");
         }
     }

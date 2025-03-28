@@ -109,10 +109,13 @@ C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\staticwebasset
 C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Tasks.props
 C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Tasks.props
 C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\Tasks.csproj.Up2Date
 C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\Tasks.dll
 C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\refint\Tasks.dll
 C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\Tasks.pdb
 C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\Tasks.genruntimeconfig.cache
 C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\obj\Debug\net8.0\ref\Tasks.dll
+C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\bin\Debug\net8.0\MassTransit.dll
+C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\darmarzrold\source\repos\SystemMQ\Tasks\bin\Debug\net8.0\RabbitMQ.Client.dll

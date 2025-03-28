@@ -21,7 +21,22 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: database_task
     ports:
-      - "5433:5432"
+      - "5433:5432"  
+  
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"   # Puerto para la comunicación con RabbitMQ
+      - "15672:15672" # Puerto para acceder a la interfaz de administración web
+    environment:
+      RABBITMQ_DEFAULT_USER: user          # Usuario por defecto
+      RABBITMQ_DEFAULT_PASS: password      # Contraseña por defecto
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq    # Volumen persistente para datos
+volumes:
+  rabbitmq_data:
+    driver: local
 
     
 

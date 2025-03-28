@@ -7,6 +7,8 @@ using Tasks.Module.Repository;
 using Tasks.Module.Services;
 using Tasks.Module.Services.Interface;
 using Tasks.Configuration.Database.Helper;
+using MassTransit;
+using Tasks.Module.Consumer;
 
 namespace Tasks.Extensions
 {
@@ -25,7 +27,21 @@ namespace Tasks.Extensions
                 WaitForConnection.Implement(connectionString, logger).GetAwaiter().GetResult();
             }
             service.AddDbContext<AppDBContext>(op => op.UseNpgsql(connectionString));
-
+            //rabbit mq
+            service.AddMassTransit(x =>
+            {
+                x.AddConsumer<ProjectConsummer>();
+                x.UsingRabbitMq((context, cfg) =>
+                {
+                    cfg.Host(new Uri("rabbitmq://localhost:5672"), h =>
+                    {
+                        h.Username("user");
+                        h.Password("password");
+                    });
+                    cfg.ConfigureEndpoints(context);
+                });
+            });
+            service.AddMassTransitHostedService();
             //swagger
             service.AddEndpointsApiExplorer();
             service.AddSwaggerGen();
@@ -34,6 +50,7 @@ namespace Tasks.Extensions
             //scope
             service.AddScoped<ITaskRepository, TaskRepository>();
             service.AddScoped<ITaskService, TaskServices>();
+            service.AddScoped<ProjectConsummer>();
             //swagger
             service.AddEndpointsApiExplorer();
             service.AddSwaggerGen();

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using Project.Configuration.Database.Helper;
 using Project.Context;
@@ -24,6 +25,20 @@ namespace Project.Extensions
                 WaitForConnection.Implement(connectionString, logger).GetAwaiter().GetResult();
             }
             service.AddDbContext<AppDBContext>(op => op.UseNpgsql(connectionString));
+            //rabbit mq
+            service.AddMassTransit(x =>
+            {
+                x.UsingRabbitMq((context, cfg) =>
+                {
+                    cfg.Host(new Uri("rabbitmq://localhost:5672"), h =>
+                    {
+                        h.Username("user");
+                        h.Password("password");
+                    });
+                    cfg.ConfigureEndpoints(context);
+                });
+            });
+            service.AddMassTransitHostedService();
             //swagger
             service.AddEndpointsApiExplorer();
             service.AddSwaggerGen();

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using MassTransit;
 using Project.Module.DTOs;
 using Project.Module.Model;
 using Project.Module.Repository.Interface;
@@ -10,11 +11,13 @@ namespace Project.Module.Services
     {
         private readonly IProjectRepository _repository;
         private readonly IMapper _mapper;
+        private readonly IPublishEndpoint _publishEndpoint;
 
-        public ProjectService(IProjectRepository repository, IMapper mapper)
+        public ProjectService(IProjectRepository repository, IMapper mapper, IPublishEndpoint publishEndpoint)
         {
             this._repository = repository;
             this._mapper = mapper;
+            this._publishEndpoint = publishEndpoint;
         }
 
         /// <summary>
@@ -50,6 +53,12 @@ namespace Project.Module.Services
 
             await this._repository.SaveProjectAsync(project);
 
+            await this._publishEndpoint.Publish(new ProjectModel
+            {
+                Id = project.Id,
+                Name = project.Name,
+                Description = project.Description
+            });
             return project;
         }
     }
