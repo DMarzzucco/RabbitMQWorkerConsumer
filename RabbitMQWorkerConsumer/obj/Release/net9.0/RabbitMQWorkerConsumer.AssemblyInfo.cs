@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dario Marzzucco")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute(@"RabbitMQWorkerConsumer is a lightweight library designed to simplify the creation of message consumers in .NET applications using RabbitMQ.
 
 This package encapsulates the logic for connecting, configuring, and consuming messages from a queue, allowing the developer to focus solely on defining the message and managing it through a simple interface.

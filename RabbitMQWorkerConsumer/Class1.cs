@@ -13,7 +13,7 @@ public class RabbitConnectionOptions
     public int Port { get; set; } // example 5672
     public required string UserName { get; set; } // example "user"
     public required string Password { get; set; } // example "password"
-    public required string QueueName { get; set; }
+    public required string QueueName { get; set; } // example "test.name"
 }
 
 public class WorkerConsumitor<T>

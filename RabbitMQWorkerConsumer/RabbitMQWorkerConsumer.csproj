@@ -4,7 +4,37 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>RabbitMQWorkerConsumer</PackageId>
+    <Title>RabbitMQWorkerConsumer</Title>
+    <Version>1.0.0</Version>
+    <Product>RabbitMQWorkerConsumer</Product>
+    <Authors>Dario Marzzucco</Authors>
+    <Company>Dario Marzzucco</Company>
+    <Description>RabbitMQWorkerConsumer is a lightweight library designed to simplify the creation of message consumers in .NET applications using RabbitMQ.
+
+This package encapsulates the logic for connecting, configuring, and consuming messages from a queue, allowing the developer to focus solely on defining the message and managing it through a simple interface.
+
+It is specifically designed to avoid code repetition and facilitate the integration of RabbitMQ into your services, following good practices of asynchrony and decoupling.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/DMarzzucco/RabbitMQWorkerConsumer</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>RabbitMQ;Worker;Consumer;Template;</PackageTags>
+    <PackageReleaseNotes>This is the First Version</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="RabbitMQ.Client" Version="7.1.2" />

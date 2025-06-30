@@ -1,0 +1,13 @@
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\bin\Debug\net9.0\RabbitMQWorkerConsumer.deps.json
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\bin\Debug\net9.0\RabbitMQWorkerConsumer.dll
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\bin\Debug\net9.0\RabbitMQWorkerConsumer.pdb
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\RabbitMQWorkerConsumer.csproj.AssemblyReference.cache
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\RabbitMQWorkerConsumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\RabbitMQWorkerConsumer.AssemblyInfoInputs.cache
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\RabbitMQWorkerConsumer.AssemblyInfo.cs
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\RabbitMQWorkerConsumer.csproj.CoreCompileInputs.cache
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\RabbitMQWorkerConsumer.sourcelink.json
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\RabbitMQWorkerConsumer.dll
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\refint\RabbitMQWorkerConsumer.dll
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\RabbitMQWorkerConsumer.pdb
+C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\obj\Debug\net9.0\ref\RabbitMQWorkerConsumer.dll

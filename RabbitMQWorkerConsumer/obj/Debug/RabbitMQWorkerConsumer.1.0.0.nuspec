@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RabbitMQWorkerConsumer</id>
+    <version>1.0.0</version>
+    <title>RabbitMQWorkerConsumer</title>
+    <authors>Dario Marzzucco</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <description>RabbitMQWorkerConsumer is a lightweight library designed to simplify the creation of message consumers in .NET applications using RabbitMQ.
+
+This package encapsulates the logic for connecting, configuring, and consuming messages from a queue, allowing the developer to focus solely on defining the message and managing it through a simple interface.
+
+It is specifically designed to avoid code repetition and facilitate the integration of RabbitMQ into your services, following good practices of asynchrony and decoupling.</description>
+    <releaseNotes>This is the First Version</releaseNotes>
+    <tags>RabbitMQ Worker Consumer Template</tags>
+    <repository type="git" url="https://github.com/DMarzzucco/RabbitMQWorkerConsumer" commit="b837270e2d5ecf25853d2ca92a0063aa082fc2dc" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="RabbitMQ.Client" version="7.1.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\darma\Documents\RabbitMQWorkerConsumer\RabbitMQWorkerConsumer\bin\Debug\net9.0\RabbitMQWorkerConsumer.dll" target="lib\net9.0\RabbitMQWorkerConsumer.dll" />
+    <file src="C:\Users\darma\Documents\RabbitMQWorkerConsumer\LICENSE" target="\LICENSE" />
+    <file src="C:\Users\darma\Documents\RabbitMQWorkerConsumer\README.md" target="\README.md" />
+  </files>
+</package>
